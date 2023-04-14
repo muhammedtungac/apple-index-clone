@@ -1,0 +1,303 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+.mainClass {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  background-color: #1d1d1f;
+  width: 100%;
+  opacity: 80%;
+  backdrop-filter: saturate(180%) blur(20px);
+  position: sticky;
+}
+.headText {
+  color: white;
+  text-decoration: solid;
+}
+.head {
+  font-weight: 400;
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  background-color: #1d1d1f;
+  opacity: 70%;
+  padding: 15px;
+  padding-left: 25px;
+}
+.headDiv {
+  justify-content: center;
+  display: flex;
+  flex-flow: row wrap;
+  width: 100%;
+}
+.head:hover {
+  opacity: 65%;
+}
+.textLink {
+  text-decoration: solid;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #0066cc;
+}
+.secondBox {
+  text-align: center;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  background-color: #f5f5f7;
+  color: #1d1d1f;
+  padding: 10px;
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.thirdBox {
+  background-image: url("./pictures/iphone_14_top.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  color: #1d1d1f;
+  width: 100%;
+  align-items: center;
+  height: 750px;
+  flex-direction: column;
+  align-self: center;
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.imageText1 {
+  margin-top: 2cm;
+  color: #0066cc;
+  font-weight: 700;
+  font-size: 50px;
+  color: white;
+}
+.imageText2 {
+  color: white;
+  font-size: 29px;
+}
+.linkBox {
+  display: flex;
+}
+.linkBox .textLink {
+  margin-left: 15px;
+  margin-top: 10px;
+  margin-right: 20px;
+  font-size: 19px;
+  color: #2997ff;
+}
+.fourthBox {
+  background-image: url("./pictures/two_iphone_14.jpg");
+  background-repeat: no-repeat;
+  background-position: center top;
+  display: flex;
+  color: #1d1d1f;
+  width: 100%;
+  align-items: center;
+  height: 750px;
+  flex-direction: column;
+  align-self: center;
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.fourthBox .imageText1 {
+  color: #1d1d1f;
+}
+.fourthBox .imageText2 {
+  color: #1d1d1f;
+}
+.fourthBox .linkBox .textLink {
+  color: #0066cc;
+}
+.fifthBox {
+  background-image: url("./pictures/apple_watch.jpg");
+  background-repeat: no-repeat;
+  background-position: center top;
+  display: flex;
+  color: #1d1d1f;
+  width: 100%;
+  align-items: center;
+  height: 750px;
+  flex-direction: column;
+  align-self: center;
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+span.imageText1 {
+  margin-top: 0cm;
+}
+.first {
+  background-image: url("./pictures/apple_watch_series_8.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 50%;
+  height: 100%;
+  align-items: center;
+  align-self: center;
+}
+.first .imageText1 {
+  font-size: 35px;
+}
+
+.first #imgTxt2 {
+  font-size: 15px;
+  opacity: 75%;
+  font-weight: bolder;
+  letter-spacing: 0.01cm;
+  color: rgb(255, 0, 0);
+  font-family: Arial, Helvetica, sans-serif;
+}
+.first .imageText2 {
+  font-size: 21px;
+}
+.second {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url("./pictures/ipad.jpg");
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 50%;
+  height: 100%;
+  align-items: center;
+  align-self: center;
+}
+.second .imageText1 {
+  font-size: 35px;
+  color: #1d1d1f;
+}
+.second .imageText2 {
+  margin-top: 5px;
+  font-size: 21px;
+  color: #1d1d1f;
+}
+
+.third {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url("./pictures/macbook.jpg");
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 50%;
+  height: 100%;
+  align-items: center;
+  align-self: center;
+}
+.third .imageText1 {
+  font-size: 35px;
+  color: white;
+}
+.third .imageText2 {
+  margin-top: 5px;
+  font-size: 21px;
+  color: white;
+}
+
+.fourth {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url("./pictures/homepod.jpg");
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 50%;
+  height: 100%;
+  align-items: center;
+  align-self: center;
+}
+.fourth .imageText1 {
+  font-size: 38px;
+  padding-bottom: 10px;
+  color: white;
+}
+.fourth .imageText2 {
+  margin-top: 5px;
+  font-size: 21px;
+  color: white;
+}
+.fifth {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url("./pictures/airpods_pro.jpg");
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 50%;
+  height: 100%;
+  align-items: center;
+  align-self: center;
+}
+
+.fifth .imageText1 {
+  font-size: 38px;
+  padding-bottom: 10px;
+  color: white;
+}
+.fifth .imageText2 {
+  margin-top: 5px;
+  font-size: 21px;
+  color: white;
+}
+.sixth {
+  background-image: url("./pictures/card.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 50%;
+  height: 100%;
+  align-items: center;
+  align-self: center;
+}
+.sixth .imageText1 {
+  font-size: 38px;
+  padding-bottom: 10px;
+  color: #1d1d1f;
+}
+.sixth .imageText2 {
+  margin-top: 5px;
+  font-size: 21px;
+  color: #1d1d1f;
+}
+.linkBox.textLink {
+  font-size: 1px;
+}
+.sixthBox {
+  display: flex;
+  color: #1d1d1f;
+  width: 100%;
+  height: 750px;
+  flex-direction: column;
+  justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.row1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  height: 500px;
+}
+.midBox {
+  display: flex;
+  flex-direction: column;
+  width: 99%;
+  align-items: center;
+}
